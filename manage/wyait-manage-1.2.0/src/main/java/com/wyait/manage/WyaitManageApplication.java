@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @SpringBootApplication
 public class WyaitManageApplication {
-
+	//程序入口
 	public static void main(String[] args) {
 		SpringApplication sa=new SpringApplication(WyaitManageApplication.class);
 		// 禁用devTools热部署
